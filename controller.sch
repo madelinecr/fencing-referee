@@ -2113,7 +2113,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value="0.1uF"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="PTH"/>
+<part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="PTH" value="16MHz"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value="22pF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value="22pF"/>
 <part name="LHIT" library="SparkFun-LED" deviceset="LED" device="5MM"/>
@@ -2124,7 +2124,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="FOIL" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="SABER" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="WEAPON" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="FTDI_DEVICE" device=""/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>

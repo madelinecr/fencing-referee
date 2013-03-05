@@ -111,6 +111,8 @@
 <wire x1="58.42" y1="0" x2="2.54" y2="0" width="0" layer="20"/>
 <wire x1="2.54" y1="0" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="0" y1="2.54" x2="0" y2="35.56" width="0" layer="20"/>
+<text x="45.212" y="14.732" size="1.016" layer="1">FenceRef Proto 1</text>
+<text x="22.098" y="2.032" size="1.016" layer="20">05-03-2013 Blaine Pace</text>
 </plain>
 <libraries>
 <library name="SparkFun-DigitalIC">
@@ -574,15 +576,15 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="SparkFun-DigitalIC" package="DIL28-3" value="ATMEGA328P_PDIP" x="27.94" y="22.86"/>
+<element name="U1" library="SparkFun-DigitalIC" package="DIL28-3" value="ATMEGA328P_PDIP" x="27.94" y="22.86" smashed="yes"/>
 <element name="C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="0.1uF" x="37.084" y="12.7" rot="R270"/>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.4" value="10k" x="15.24" y="12.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.78" y="13.335" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="17.78" y="13.081" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="AXIAL-0.4" value="10k" x="30.48" y="7.874" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.02" y="8.509" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="33.02" y="8.255" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="Y1" library="SparkFun-FreqCtrl" package="RESONATOR-PTH" value="" x="30.48" y="12.7"/>
+<element name="Y1" library="SparkFun-FreqCtrl" package="RESONATOR-PTH" value="16MHz" x="30.48" y="12.7"/>
 <element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="22pF" x="26.924" y="4.826"/>
 <element name="C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="22pF" x="34.036" y="4.826" rot="R180"/>
 <element name="LHIT" library="SparkFun-LED" package="LED5MM" value="" x="5.08" y="5.08" smashed="yes" rot="R270">
@@ -616,15 +618,17 @@ design rules under a new name.</description>
 <element name="WEAPON" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="" x="53.34" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.404" y="19.05" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" package="AXIAL-0.4" value="" x="45.72" y="12.7"/>
+<element name="R5" library="SparkFun-Resistors" package="AXIAL-0.4" value="10k" x="45.72" y="12.7" smashed="yes">
+<attribute name="NAME" x="47.117" y="12.319" size="0.8128" layer="25" font="vector" ratio="15"/>
+</element>
 <element name="JP1" library="SparkFun-Connectors" package="FTDI_DEVICE_SIDE" value="FTDI_DEVICE" x="5.08" y="20.32" rot="R270"/>
-<element name="R6" library="SparkFun-Resistors" package="0603-RES" value="330" x="40.64" y="5.08" rot="R270"/>
-<element name="R7" library="SparkFun-Resistors" package="0603-RES" value="330" x="50.8" y="5.08" rot="R270"/>
-<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="330" x="20.32" y="5.08" rot="R270"/>
-<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="330" x="10.16" y="5.08" rot="R270"/>
-<element name="R8" library="SparkFun-Resistors" package="0603-RES" value="330" x="43.18" y="33.02" rot="R270"/>
-<element name="R9" library="SparkFun-Resistors" package="0603-RES" value="330" x="33.02" y="33.02" rot="R270"/>
-<element name="R10" library="SparkFun-Resistors" package="0603-RES" value="330" x="22.86" y="33.02" rot="R270"/>
+<element name="R6" library="SparkFun-Resistors" package="0603-RES" value="330" x="40.64" y="5.08" smashed="yes" rot="R270"/>
+<element name="R7" library="SparkFun-Resistors" package="0603-RES" value="330" x="50.8" y="5.08" smashed="yes" rot="R270"/>
+<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="330" x="20.32" y="5.08" smashed="yes" rot="R270"/>
+<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="330" x="10.16" y="5.08" smashed="yes" rot="R270"/>
+<element name="R8" library="SparkFun-Resistors" package="0603-RES" value="330" x="43.18" y="33.02" smashed="yes" rot="R270"/>
+<element name="R9" library="SparkFun-Resistors" package="0603-RES" value="330" x="33.02" y="33.02" smashed="yes" rot="R270"/>
+<element name="R10" library="SparkFun-Resistors" package="0603-RES" value="330" x="22.86" y="33.02" smashed="yes" rot="R270"/>
 <element name="LEFT" library="SparkFun-Connectors" package="1X03_LOCK_LONGPADS" value="" x="5.08" y="33.02"/>
 <element name="RIGHT" library="SparkFun-Connectors" package="1X03_LOCK_LONGPADS" value="" x="50.8" y="33.02"/>
 </elements>
